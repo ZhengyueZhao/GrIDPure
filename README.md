@@ -123,6 +123,7 @@ python gridpure.py \
     --pure_iter_num=20 \
     --gamma=0.1
 ```
+Now you can fine-tune a Stable Diffusion with your purified images.
 
 ## Citation
 Cite our paper:
