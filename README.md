@@ -103,7 +103,7 @@ python generate.py \
   --train_text_encoder=1
 ```
 
-## Purification
+### Purification
 To purify protected images from unlearnable images into learnable images, you can run purification scripts.
 
 -Run **DiffPure**:
