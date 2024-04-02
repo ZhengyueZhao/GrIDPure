@@ -1,4 +1,4 @@
-# Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion? [CVPR'24]
+# Grid Iterative Diffusion-based Purification
 
 ## Preparation
 
@@ -125,15 +125,21 @@ python gridpure.py \
 ```
 Now you can fine-tune a Stable Diffusion with your purified images.
 
-## Citation
-Cite our paper:
-```
-@inproceedings{zhao2024Can,
-  title={Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion?},
-  author={Zhengyue Zhao, Jinhao Duan, Kaidi Xu, Chenan Wang, Rui Zhang, Zidong Du, Qi Guo and Xing Hu. },
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2024}
-}
+### Quantitative Evaluation
+While you can qualitatively check the efficacy of purification results, you can also use metrics with the following repositories to evaluate the purification methods quantitatively.
+
+**For Purification Effectiveness**
+
+- FID & precision from [openai/guided-diffusion](https://github.com/openai/guided-diffusion/tree/main/evaluations)
+
+- CLIP-IQA from [piq](https://github.com/photosynthesis-team/piq)
+
+**For Purification Quality**
+
+- PSNR & SSIM from [scikit-image](https://scikit-image.org/docs/stable/api/skimage.metrics.html)
+
+- LPIPS from [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity)
+
 ```
 
 
