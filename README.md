@@ -140,8 +140,6 @@ While you can qualitatively check the efficacy of purification results, you can 
 
 - LPIPS from [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity)
 
-```
-
 
 
 
