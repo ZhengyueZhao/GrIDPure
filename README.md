@@ -106,7 +106,7 @@ python generate.py \
 ### Purification
 To purify protected images from unlearnable images into learnable images, you can run purification scripts.
 
--Run **DiffPure**:
+- Run **DiffPure**:
 ```bash
 python diffpure.py \
     --input_dir="./poisoned_images_adv" \
@@ -114,7 +114,7 @@ python diffpure.py \
     --pure_steps=100
 ```
 
--Run **GrIDPure**:
+- Run **GrIDPure**:
 ```bash
 python gridpure.py \
     --input_dir="./poisoned_images_adv" \
